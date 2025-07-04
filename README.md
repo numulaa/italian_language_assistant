@@ -142,5 +142,4 @@ If you encounter any issues or have questions, please:
 - [ ] Add more conversation scenarios
 - [ ] Implement progress tracking
 - [ ] Add gamification elements
-- [ ] Support for different German dialects
 - [ ] Mobile app development
