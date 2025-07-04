@@ -1,25 +1,27 @@
-# German Language Learning Application
+# Italian Language Learning Application
 
-An interactive web application designed to help users practice German language skills through realistic scenario-based conversations. The application features speech recognition, text-to-speech capabilities, and real-time translations.
+An interactive web application designed to help users practice Italian language skills through realistic scenario-based conversations. The application features speech recognition, text-to-speech capabilities, and real-time translations.
 
 ## Features
 
-- 🎭 **Scenario-based Learning**: Practice German in real-life situations:
+- 🎭 **Scenario-based Learning**: Practice Italian in real-life situations:
+
   - Supermarket conversations
   - Restaurant interactions
   - Train station dialogues
 
-- 🎙️ **Speech Recognition**: Record your responses in German using your device's microphone
+- 🎙️ **Speech Recognition**: Record your responses in Italian using your device's microphone
 
-- 🔊 **Text-to-Speech**: Listen to native German pronunciations
+- 🔊 **Text-to-Speech**: Listen to native Italian pronunciations
 
-- 🔄 **Real-time Translation**: Toggle between German and English translations
+- 🔄 **Real-time Translation**: Toggle between Italian and English translations
 
 - 🤖 **AI-Powered Conversations**: Natural dialogue flow using advanced language models
 
 ## Technology Stack
 
 ### Frontend
+
 - React.js
 - RecordRTC for audio recording
 - Web Speech API
@@ -27,6 +29,7 @@ An interactive web application designed to help users practice German language s
 - FontAwesome icons
 
 ### Backend
+
 - Node.js with Express
 - TypeScript
 - Integration with:
@@ -37,6 +40,7 @@ An interactive web application designed to help users practice German language s
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn
 - Modern web browser with microphone support
@@ -44,12 +48,14 @@ An interactive web application designed to help users practice German language s
 ### Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/german-language-learning.git
-cd german-language-learning
+git clone https://github.com/yourusername/italian_language_assistant.git
+cd italian_language_assistant
 ```
 
 2. Install dependencies for both frontend and backend:
+
 ```bash
 # Install backend dependencies
 cd backend
@@ -61,11 +67,14 @@ npm install
 ```
 
 3. Set up environment variables:
+
 ```bash
 # In backend directory
 cp .env.example .env
 ```
+
 Edit the `.env` file with your API keys and configuration:
+
 ```
 ASSEMBLYAI_API_KEY=your_key_here
 DEEPSEEK_API_KEY=your_key_here
@@ -75,12 +84,14 @@ PORT=3000
 ### Running the Application
 
 1. Start the backend server:
+
 ```bash
 # In backend directory
 npm run dev
 ```
 
 2. Start the frontend development server:
+
 ```bash
 # In frontend directory
 npm start
@@ -123,6 +134,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 If you encounter any issues or have questions, please:
+
 - fix it yourself. this is just for fun.
 
 ## Roadmap
